@@ -1,0 +1,4 @@
+BEGIN;
+SET SESSION ROLE policy_tester;
+SELECT * FROM pets;
+COMMIT;
