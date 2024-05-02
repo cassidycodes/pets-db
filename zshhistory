@@ -1,0 +1,16 @@
+ 1409  brew install pgbench
+ 1417  tldr pgbench
+ 1422  pgbench -f my_script.sql -c 10 -t 1000 postgres
+ 1424  pgbench -f my_scritp.sql -c 10 -t 1000 postgres
+ 1426  pgbench -f my_scritp.sql -c 10 -t 1000 postgres
+ 1427  pgbench -f my_scritp.sql -c 1 -t 1000 postgres
+ 1428  pgbench -f my_scritp.sql -c 1 -t 1 postgres
+ 1441  tldr pgbench
+ 1442  pgbench --help
+ 1444  pgbench -f my_scritp.sql -c 1 -t 1 -U policy_tester postgres
+ 1446  pgbench -f my_scritp.sql -c 1 -t 1 postgres
+ 1449  pgbench -f my_scritp.sql -c 1 -t 1 postgres
+ 1450  pgbench -f my_scritp.sql -c 1 -t 1000 postgres
+ 1451  pgbench -f my_scritp.sql -c 1 -t 100 postgres
+ 1453  pgbench -f my_scritp.sql -c 1 -t 100 postgres
+ 1487  hg pgbench
